@@ -1,0 +1,45 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#escudo {
+    width: 80px;
+}
+
+h1 {
+    color: #e01b1b;
+}
+
+h2 {
+    color: #e01b1b;
+    border-bottom: 1px solid #e01b1b;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #e01b1b;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e01b1b;
+    color: white;
+}
