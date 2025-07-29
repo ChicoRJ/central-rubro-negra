@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #111;
+    background-color: #121212;
     color: #fff;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 header {
@@ -12,12 +12,13 @@ header {
 }
 
 header img {
-    width: 80px;
+    width: 100px;
     margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
+    margin: 0;
 }
 
 section {
@@ -27,7 +28,8 @@ section {
 
 h2 {
     color: #ffcc00;
-    margin-bottom: 10px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
 }
 
 ul {
@@ -36,26 +38,35 @@ ul {
 }
 
 ul li {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #222;
+    margin-top: 10px;
+    background-color: #1f1f1f;
 }
 
-table th,
-table td {
-    border: 1px solid #555;
+th,
+td {
+    border: 1px solid #444;
     padding: 8px;
     text-align: center;
+}
+
+th {
+    background-color: #222;
+    color: #ffcc00;
+}
+
+td {
     color: #fff;
 }
 
 footer {
+    background-color: #d00000;
     text-align: center;
     padding: 10px;
-    background-color: #d00000;
-    color: #fff;
+    font-size: 0.9em;
 }
